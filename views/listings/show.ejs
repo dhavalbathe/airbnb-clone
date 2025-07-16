@@ -9,7 +9,7 @@
 
             <!-- Listing Card -->
             <div class="card listing-card shadow-sm mb-4">
-                <img src="<%= listing.image %>" alt="listing_image" class="card-img-top show-img rounded-top" style="object-fit: cover; height: 300px;">
+                <img src="<%= listing.image.url %>" alt="listing_image" class="card-img-top show-img rounded-top" style="object-fit: cover; height: 300px;">
                 <div class="card-body">
                     <p class="mb-2">Owned by <i> <%= listing.owner.username %></i></p>
                     <p class="card-text mb-2"><strong>Description:</strong> <%= listing.description %></p>
